@@ -9,13 +9,12 @@ Context-map additions:
 Distillation patterns:
 - Highlighted Core
 - Segregated Core
-- Abstract COre
+- Abstract Core
 - Cohesive Mechansims
 
-
 # Why
-Strategic decisions are often tacit. These extensions encode them directly in the model to improve trasnparency, comprehension, and evolution across teams.
+Strategic decisions are often tacit. These extensions encode some of them directly in the model to improve trasnparency, comprehension, and evolution across teams.
 The inclusion of the new strategic DDD-patterns is optional (and accordingly implemented in the code).
 
 # License
-Apache-2.0 (aligned with upstream CML).
+Apache-2.0 (aligned with the originial CML)

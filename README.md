@@ -15,9 +15,18 @@ Distillation pattern additions:
 - Abstract Core
 - Cohesive Mechansims
 
-# Why
+- # Why
 Strategic decisions are often tacit. These extensions encode some of them directly in the model to improve transparency, comprehension, and evolution across teams.
 The inclusion of the new strategic DDD-patterns is optional (and accordingly implemented in the code).
+
+# Adapted files
+Not all of the originial CML files were adapted, only those necessary to include the above listed patterns in the CML-synatx:
+- central CML grammer file: org.contextmapper.dsl/src/org/contextmapper/dsl/ContextMappingDSL.xtext
+- validation files to include rules and fitting error messages for the new patterns:
+    1. org.contextmapper.dsl/src/org/contextmapper/dsl/validation/BoundedContextRelationshipSemanticsValidator.java
+    2. org.contextmapper.dsl/src/org/contextmapper/dsl/validation/BoundedContextSemanticsValidator.java
+    3. org.contextmapper.dsl/src/org/contextmapper/dsl/validation/ContextMapSemanticsValidator.java
+    4. org.contextmapper.dsl/src/org/contextmapper/dsl/validation/ValidationMessages.java
 
 # License
 Apache-2.0 (aligned with the originial CML)
